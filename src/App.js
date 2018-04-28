@@ -5,7 +5,8 @@ import TextField from 'material-ui/TextField';
 
 import ArticlesList from './components/articles'
 
-import logo from './logo.svg';
+import logo from './the-verge-logo.png';
+import VergeName from './verge-wordmark.png';
 import './App.css';
 import newsapi from './api/newsApi';
 
@@ -37,7 +38,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <img src={VergeName} className="App-logo" alt="logo" />
+          
         </header>
         <MuiThemeProvider>
           <TextField
