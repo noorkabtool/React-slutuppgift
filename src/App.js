@@ -5,8 +5,8 @@ import TextField from 'material-ui/TextField';
 
 import ArticlesList from './components/articles'
 
-import logo from './the-verge-logo.png';
-import VergeName from './verge-wordmark.png';
+import logo from './images/the-verge-logo.png';
+import VergeName from './images/verge-wordmark.png';
 import './App.css';
 import newsapi from './api/newsApi';
 
